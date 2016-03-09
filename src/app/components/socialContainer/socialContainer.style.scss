@@ -1,0 +1,22 @@
+.socialContainer {
+  height: 100px;
+  width: 100px;
+  padding-top: 10px;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+
+  border: {
+    width: 1px;
+    radius: 50%;
+  }
+
+  &:hover {
+    box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.7);
+  }
+  &:active {
+    box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.7);
+  }
+
+}

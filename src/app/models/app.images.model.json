@@ -1,0 +1,55 @@
+{
+  "headerIllustration" : {
+    "name" : "headerHandMobile",
+    "ext"   : "png",
+    "link"  : "/public/img/headerHandMobile.png"
+  },
+
+  "iphone" : [{
+    "name"  : "iphoneHome",
+    "ext"   : "png",
+    "alt"   : "iphone header",
+    "link"  : "/public/img/iphoneHome.png"
+  }],
+
+  "stores" : [
+    {
+      "name" : "appStore",
+      "ext"   : "png",
+      "alt"   : "appStore",
+      "link"  : "/public/img/appStore.png"
+    }
+  ],
+  "carousel" : [
+    {
+      "name"  : "menuPrincipal",
+      "ext"   : "png",
+      "alt"   : "menu principal",
+      "link"  : "/public/img/Menuprincipal.png"
+    },
+    {
+      "name"  : "consultPoint",
+      "ext"   : "png",
+      "alt"   : "consulations des points",
+      "link"  : "/public/img/Consultation.png"
+    },
+    {
+      "name"  : "configConsult",
+      "ext"   : "png",
+      "alt"   : "configuration de la consulation",
+      "link"  : "/public/img/ConfigurationConsult.png"
+    },
+    {
+      "name"  : "histoConsult",
+      "ext"   : "png",
+      "alt"   : "historique des consulations",
+      "link"  : "/public/img/HistoPoints.png"
+    },
+    {
+      "name"  : "accueil",
+      "ext"   : "png",
+      "alt"   : "bon à savoir",
+      "link"  : "/public/img/Accueil.png"
+    }
+  ]
+}

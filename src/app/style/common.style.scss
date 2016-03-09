@@ -1,0 +1,135 @@
+@import "./app.var.style";
+
+html {
+  height : 100%;
+}
+
+body {
+  height : 100%;
+  background-color: #ECECEC;
+}
+
+a {
+  :hover {
+    cursor : pointer !important;
+  }
+}
+// container
+.containersCustom {
+  padding-left: $CONTAINER_CUSTOM_PADDING_LEFT;
+  padding-right: $CONTAINER_CUSTOM_PADDING_RIGHT;
+}
+
+
+// view animations
+.invisible {
+  opacity: 0;
+}
+
+.view-enter {
+  animation: fadeIn 0.5s both ease-in;
+  z-index: 9999;
+ }
+
+.animatedViews {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+//NavigationBar
+
+.navbar-default {
+  background-color: rgba(66, 66, 66, 0.95);
+  border-color: rgba(66, 66, 66, 0.95);
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-lighter {
+  background-color: rgba(236,236,236, 0.95);
+  border-color: rgba(236,236,236, 0.95);
+  .navbar-nav {
+    >li {
+      >a {
+        color: rgba(66, 66, 66, 1);
+        &:hover{
+          color: rgba(255, 255, 255, 0.8);
+          cursor: pointer;
+        }
+        &:focus {
+          color: rgba(255, 255, 255, 0.8);
+          cursor: pointer;
+        }
+        &.active {
+          color: rgba(255, 255, 255, 0.8);
+        }
+      }
+    }
+  }
+
+  .navbar-brand {
+    color: rgba(66, 66, 66, 1);
+    &:hover {
+      color: rgba(66, 66, 66, 0.8);
+      cursor: pointer;
+    }
+    &:focus{
+      color: rgba(66, 66, 66, 0.8);
+    }
+  }
+}
+
+
+
+//React burger menu
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 26px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

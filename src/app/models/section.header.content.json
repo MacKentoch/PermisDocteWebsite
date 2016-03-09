@@ -1,0 +1,90 @@
+{
+  "title" : "PermisDocte",
+  "list"  : [
+  {
+    "header" : {
+      "label"       : "consulter le solde vos points",
+      "classNames"  : {
+        "animated"    : false,
+        "invisible"   : false,
+        "fadeInRight" : false
+      }
+    },
+    "subs" : [
+    {
+      "label"       : "n'importe où",
+      "classNames"  : {
+        "animated"    : false,
+        "invisible"   : false,
+        "fadeIn"      : false
+      }
+    },
+    {
+      "label"       : "facilement",
+      "classNames"  : {
+        "animated"    : false,
+        "invisible"   : false,
+        "fadeIn"      : false
+      }
+    },
+    {
+      "label"       : "Soyez déjà prêt avant l'application du décret n° 2015-1892 qui entrera en vigueur le 31 Octobre 2016",
+      "classNames"  : {
+        "animated"    : false,
+        "invisible"   : false,
+        "fadeIn"      : false
+      }
+    }]
+  },
+
+  {
+    "header" : {
+      "label"       : "apprenez les subtilités du permis à point",
+      "classNames"  : {
+        "animated"    : false,
+        "invisible"   : false,
+        "fadeInRight" : false
+      }
+    },
+    "subs" : [
+    {
+      "label"       : "sans faire d'effort",
+      "classNames"  : {
+        "animated"    : false,
+        "invisible"   : false,
+        "fadeIn"      : false
+      }
+    }]
+  },
+
+  {
+    "header" : {
+      "label"       : "Une application vraiment gratuite",
+      "classNames"  : {
+        "animated"    : false,
+        "invisible"   : false,
+        "fadeInRight" : false
+      }
+    },
+    "subs" : [
+    {
+      "label"       : "Pas de publicité",
+      "classNames"  : {
+        "animated"    : false,
+        "invisible"   : false,
+        "fadeIn"      : false
+      }
+    },
+    {
+      "label"       : "Vos données restent strictement privées",
+      "classNames"  : {
+        "animated"    : false,
+        "invisible"   : false,
+        "fadeIn"      : false
+      }
+    }]
+  }
+
+
+]
+}

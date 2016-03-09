@@ -1,0 +1,39 @@
+#imageCarousel {
+  .carousel-control {
+    &.left {
+      background-image: none;
+      width: 0;
+    }
+  }
+
+  .carousel-control {
+    &.right {
+      background-image: none;
+      width: 0;
+    }
+  }
+  .carousel-indicators {
+    bottom: 0px;
+
+    .active {
+        margin: 0;
+        width: 12px;
+        height: 12px;
+        background-color: #000;
+    }
+
+    li {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 1px;
+        text-indent: -999px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #000;
+        background-color: transparent;
+    }
+  }
+
+}

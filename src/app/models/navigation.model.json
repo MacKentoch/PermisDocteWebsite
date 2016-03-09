@@ -1,0 +1,63 @@
+{
+  "brand"       : {
+    "label"     : "PermisDocte",
+    "link"      : "/",
+    "scrollTo"  : "scrollToHOME",
+    "spy"       : false,
+    "smooth"    : true,
+    "duration"  : 500
+  },
+  "leftLinks"   : [],
+  "rightLinks"  : [
+    {
+      "label"     : "Accueil",
+      "link"      : "/",
+      "scrollTo"  : "scrollToHOME",
+      "spy"       : true,
+      "smooth"    : true,
+      "duration"  : 500,
+      "fontIcon"  : "fa-home"
+    },
+    {
+      "label"     : "Présentation",
+      "link"      : "/",
+      "scrollTo"  : "scrollToPREVIEW",
+      "spy"       : true,
+      "smooth"    : true,
+      "duration"  : 500,
+      "fontIcon"  : "fa-info"
+    },
+    {
+      "label"     : "Questions",
+      "link"      : "/",
+      "scrollTo"  : "scrollToQUESTIONS",
+      "spy"       : true,
+      "smooth"    : true,
+      "duration"  : 500,
+      "fontIcon"  : "fa-info"
+    },
+    {
+      "label"     : "Contact",
+      "link"      : "/",
+      "scrollTo"  : "scrollToCONTACT",
+      "spy"       : true,
+      "smooth"    : true,
+      "duration"  : 500,
+      "fontIcon"  : "fa-info"
+    }
+  ],
+  "about": {
+    "sideMenu" : [
+      {
+        "label"     : "Accueil",
+        "link"      : "/",
+        "fontIcon"  : "fa-home"
+      },
+      {
+        "label"     : "Infos",
+        "link"      : "/about",
+        "fontIcon"  : "fa-info"
+      }
+    ]
+  }
+}

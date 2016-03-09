@@ -1,0 +1,139 @@
+[
+  {
+    "title" : "Comment PermisDocte peut consulter mes points?",
+    "content" : [
+      {
+        "text" : "PermisDocte consulte le site officiel Téléservice de consulations des points : ",
+        "type" : "span"
+      },
+      {
+        "text" : "https://tele7.interieur.gouv.fr",
+        "type" : "superlink"
+      },
+      {
+        "text" : "",
+        "type" : "br"
+      },
+      {
+        "text" : "L'avantage de PermisDocte est de fournir de la simplicité :",
+        "type" : "span"
+      },
+      {
+        "text" : "• pas d'url comliquée à retenir",
+        "type" : "span"
+      },
+      {
+        "text" : "• pas besoin de ressaisir toutes les informations à chaque consultation",
+        "type" : "span"
+      },
+      {
+        "text" : "• le site officiel ne date pas d'hier donc l'expérience sur smartphone est beaucoup plus agréable sur PermisDocte",
+        "type" : "span"
+      }
+    ]
+  },
+  {
+    "title"  : "Comment obtenir mon identifiant et mon mot de passe Téléservice?",
+    "content" : [
+      {
+        "text" : "Pour se connecter au service Télépoints, il est nécessaire de se munir au préalable :",
+        "type" : "span"
+      },
+      {
+        "text" : "• de son identifiant (le numéro du permis)",
+        "type" : "span"
+      },
+      {
+        "text" : "• de son code confidentiel sécurisé.",
+        "type" : "span"
+      },
+      {
+        "text" : "",
+        "type" : "br"
+      },
+      {
+        "text" : "Si votre permis de conduire est un ancien modèle non sécurisé, vous devez demander ces informations par courrier à votre préfecture en joignant :",
+        "type" : "span"
+      },
+      {
+        "text" : "• une copie de votre pièce d'identité",
+        "type" : "span"
+      },
+      {
+        "text" : "• une copie de votre permis de conduire,",
+        "type" : "span"
+      },
+      {
+        "text" : "• une enveloppe à votre nom, affranchie au tarif recommandé avec demande d'avis de réception, accompagnée de la liasse délivrée par la Poste permettant la distribution du recommandé.",
+        "type" : "span"
+      },
+      {
+        "text" : "• une enveloppe à votre nom, affranchie au tarif recommandé avec demande d'avis de réception, accompagnée de la liasse délivrée par la Poste permettant la distribution du recommandé.",
+        "type" : "span"
+      },
+      {
+        "text" : "",
+        "type" : "br"
+      },
+      {
+        "text" : "Si vous êtes titulaire du permis de conduire depuis novembre 2013, votre code de consultation a été joint à l'envoi de votre permis.",
+        "type" : "span"
+      }
+    ]
+  },
+  {
+    "title" : "Est-il possible de ne pas avoir à ressaisir le code de vérification?",
+    "content" : [
+      {
+        "text" : "Non, ce code de vérification est une protection du site Téléservice.",
+        "type" : "span"
+      },
+      {
+        "text" : "",
+        "type" : "br"
+      },
+      {
+        "text" : "Cette protection assure la sécurité du site, donc la sécurité de vos consultations.",
+        "type" : "span"
+      }
+    ]
+  },
+  {
+    "title" : "Comment supprimer toutes mes données enregistrées?",
+    "content" : [
+      {
+        "text" : "Plusieurs choix possibles :",
+        "type" : "span"
+      },
+      {
+        "text" : "• dans le menu de configuration de l'écran 'consulter mes points'",
+        "type" : "span"
+      },
+      {
+        "text" : "• dans l'écran 'Mon historique' en sélectionnant les consultations à effacer (remarque : celà ne supprime pas les identifiants de connexion enregistrés)",
+        "type" : "span"
+      },
+      {
+        "text" : "• en supprimant l'application vous effacerez en même temps toutes les données : identifiants de connexions et l'historique des consultations",
+        "type" : "span"
+      }
+    ]
+  },
+  {
+    "title" : "Une mise à jour de PermisDocte efface-t-elle mes données?",
+    "content" : [
+      {
+        "text" : "Non, une mise à jour n'efface pas les données enregistrées.",
+        "type" : "span"
+      },
+      {
+        "text" : "",
+        "type" : "br"
+      },
+      {
+        "text" : "Par contre, supprimer l'application supprimera aussi toutes les données (identifiants de connexion et l'historique des consulations).",
+        "type" : "span"
+      }
+    ]
+  }
+]
