@@ -282,93 +282,97 @@ class Home extends React.Component {
           navModel={this.state.navModel}
           cssClass={navigationClasses}
         />
-        <ViewContainer
-          isAnimated={true}>
-          <Element
-            name="scrollToHOME"
-            className="element">
-            <HomeHeaderSection
-              title={homeHeaderSectionTitle}
-              imageIphoneHome={this.state.images.iphone[0]}
-              storesImages={this.state.images.stores}
-              triggerAnimation={this.state.animHomeCarousel}
-              animationDelay={1500}
-              head1Class={this.getHeaderRightTextHead1Class()}
-              head11Class={this.getHeaderRightTextSub11Class()}
-              head12Class={this.getHeaderRightTextSub12Class()}
-              head2Class={this.getHeaderRightTextHead2Class()}
-              head21Class={this.getHeaderRightTextSub21Class()}
-              head3Class={this.getHeaderRightTextHead3Class()}
-              head31Class={this.getHeaderRightTextSub31Class()}
-              head32Class={this.getHeaderRightTextSub32Class()}
-            />
-          </Element>
-          <Waypoint
-            key="waypointHeaderToCarousel"
-            onEnter={() => this.handleWaypointEnter('waypointHeaderToCarousel')}
-            onLeave={() => this.handleWaypointLeave('waypointHeaderToCarousel')}
-            threshold={0.2}
-          />
-          <Element
-            name="scrollToPREVIEW"
-            className="element">
-            <HomeCarouselSection
-              title={carouselSectionTitle}
-              carousel={this.state.images.carousel}
-              triggerAnimation={this.state.animHomeCarousel}
-              animationDelay={1500}
-            />
-          </Element>
-          <Waypoint
-            key="waypointCarouselToHowItWorks"
-            onEnter={() => this.handleWaypointEnter('waypointCarouselToHowItWorks')}
-            onLeave={() => this.handleWaypointLeave('waypointCarouselToHowItWorks')}
-            threshold={0.2}
-          />
-          <Element
-            name="scrollToQUESTIONS"
-            className="element">
-            <HomeHowItWorksSection
-              title={howItWorksSectionTitle}
-              triggerAnimation={this.state.animHomeHowTo}
-              HowItWorksModel={this.state.HowItWorksModel}
-            />
-          </Element>
-          <Waypoint
-            key="waypointHowItWorksToGoAppStore"
-            onEnter={() => this.handleWaypointEnter('waypointHowItWorksToGoAppStore')}
-            onLeave={() => this.handleWaypointLeave('waypointHowItWorksToGoAppStore')}
-            threshold={0.2}
-          />
-          <GoAppStoreSection
-            title={goAppStoreTitle}
-            triggerAnimation={false}
-            storesImages={this.state.images.stores}
-          />
-          <Waypoint
-            key="waypointGoAppStoreToContact"
-            onEnter={() => this.handleWaypointEnter('waypointGoAppStoreToContact')}
-            onLeave={() => this.handleWaypointLeave('waypointGoAppStoreToContact')}
-            threshold={0.2}
-          />
-          <Element
-            name="scrollToCONTACT"
-            className="element">
-            <ContactSection
-              title={contactTitle}
-              triggerAnimation={false}
-              mailBox={this.state.permisDocteEmail}
-              twitterLink={this.state.twitterLink}
-            />
-          </Element>
-          <Waypoint
-            key="waypointContactToBottom"
-            onEnter={() => this.handleWaypointEnter('waypointContactToBottom')}
-            onLeave={() => this.handleWaypointLeave('waypointContactToBottom')}
-            threshold={0.2}
-          />
-          <BottomSection />
-        </ViewContainer>
+        <div className="row">
+          <div className="col-xs-12">
+            <ViewContainer
+              isAnimated={true}>
+              <Element
+                name="scrollToHOME"
+                className="element">
+                <HomeHeaderSection
+                  title={homeHeaderSectionTitle}
+                  imageIphoneHome={this.state.images.iphone[0]}
+                  storesImages={this.state.images.stores}
+                  triggerAnimation={this.state.animHomeCarousel}
+                  animationDelay={1500}
+                  head1Class={this.getHeaderRightTextHead1Class()}
+                  head11Class={this.getHeaderRightTextSub11Class()}
+                  head12Class={this.getHeaderRightTextSub12Class()}
+                  head2Class={this.getHeaderRightTextHead2Class()}
+                  head21Class={this.getHeaderRightTextSub21Class()}
+                  head3Class={this.getHeaderRightTextHead3Class()}
+                  head31Class={this.getHeaderRightTextSub31Class()}
+                  head32Class={this.getHeaderRightTextSub32Class()}
+                />
+              </Element>
+              <Waypoint
+                key="waypointHeaderToCarousel"
+                onEnter={() => this.handleWaypointEnter('waypointHeaderToCarousel')}
+                onLeave={() => this.handleWaypointLeave('waypointHeaderToCarousel')}
+                threshold={0.2}
+              />
+              <Element
+                name="scrollToPREVIEW"
+                className="element">
+                <HomeCarouselSection
+                  title={carouselSectionTitle}
+                  carousel={this.state.images.carousel}
+                  triggerAnimation={this.state.animHomeCarousel}
+                  animationDelay={1500}
+                />
+              </Element>
+              <Waypoint
+                key="waypointCarouselToHowItWorks"
+                onEnter={() => this.handleWaypointEnter('waypointCarouselToHowItWorks')}
+                onLeave={() => this.handleWaypointLeave('waypointCarouselToHowItWorks')}
+                threshold={0.2}
+              />
+              <Element
+                name="scrollToQUESTIONS"
+                className="element">
+                <HomeHowItWorksSection
+                  title={howItWorksSectionTitle}
+                  triggerAnimation={this.state.animHomeHowTo}
+                  HowItWorksModel={this.state.HowItWorksModel}
+                />
+              </Element>
+              <Waypoint
+                key="waypointHowItWorksToGoAppStore"
+                onEnter={() => this.handleWaypointEnter('waypointHowItWorksToGoAppStore')}
+                onLeave={() => this.handleWaypointLeave('waypointHowItWorksToGoAppStore')}
+                threshold={0.2}
+              />
+              <GoAppStoreSection
+                title={goAppStoreTitle}
+                triggerAnimation={false}
+                storesImages={this.state.images.stores}
+              />
+              <Waypoint
+                key="waypointGoAppStoreToContact"
+                onEnter={() => this.handleWaypointEnter('waypointGoAppStoreToContact')}
+                onLeave={() => this.handleWaypointLeave('waypointGoAppStoreToContact')}
+                threshold={0.2}
+              />
+              <Element
+                name="scrollToCONTACT"
+                className="element">
+                <ContactSection
+                  title={contactTitle}
+                  triggerAnimation={false}
+                  mailBox={this.state.permisDocteEmail}
+                  twitterLink={this.state.twitterLink}
+                />
+              </Element>
+              <Waypoint
+                key="waypointContactToBottom"
+                onEnter={() => this.handleWaypointEnter('waypointContactToBottom')}
+                onLeave={() => this.handleWaypointLeave('waypointContactToBottom')}
+                threshold={0.2}
+              />
+              <BottomSection />
+            </ViewContainer>
+          </div>
+        </div>
       </section>
     );
   }

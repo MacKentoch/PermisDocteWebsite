@@ -4,9 +4,9 @@ import React from 'react';
 
 const GreySection = (props) => {
   return (
-    <section className="grey-section">
+    <section className="grey-section container-fluid">
       <div className="row">
-        <div className="col-lg-12">
+        <div className="col-xs-12">
           {props.children}
         </div>
       </div>
