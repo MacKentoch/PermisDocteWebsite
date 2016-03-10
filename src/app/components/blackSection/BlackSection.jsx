@@ -28,6 +28,6 @@ BlackSection.propTypes = {
 BlackSection.defaultProps  ={
   overridePaddingTop    : '40px',
   overridePaddingBottom : '40px'
-}
+};
 
 export default BlackSection;

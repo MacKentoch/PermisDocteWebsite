@@ -2,8 +2,10 @@
 
 import React            from 'react';
 import GreySection      from '../greySection/GreySection.jsx';
-import TwitterIcon      from '../twitterIcon/TwitterIcon.jsx';
-import EmailIcon        from '../emailIcon/EmailIcon.jsx';
+import {
+  EmailIcon, 
+  TwitterIcon
+}                       from '../icons';
 import SocialContainer  from '../socialContainer/SocialContainer.jsx';
 
 class ContactSection extends React.Component {

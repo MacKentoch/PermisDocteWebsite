@@ -1,7 +1,6 @@
 'use strict';
 
 import React              from 'react';
-import DarkGreySection    from '../darkGreySection/DarkGreySection.jsx';
 import BlackSection       from '../blackSection/BlackSection.jsx';
 import { NumberTest }     from '../../services/NumberTest';
 

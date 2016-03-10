@@ -1,7 +1,9 @@
 import React                from 'react';
 import { MorphReplace }     from 'react-svg-morph';
-import ExpandMore           from '../expandMore/ExpandMore.jsx';
-import ExpandLess           from '../expandLess/ExpandLess.jsx';
+import {
+  ExpandMore,
+  ExpandLess
+}                           from '../icons';
 import { Collapse }         from 'react-bootstrap';
 import { PromisedTimeout }  from '../../services/PromisedTimeout';
 import classNames           from 'classnames';
@@ -47,8 +49,6 @@ class InfoPanel extends React.Component {
     });
     return animClasses;
   }
-
-
 
   togglePanel() {
     this.setState({

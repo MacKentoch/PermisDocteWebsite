@@ -21,7 +21,6 @@ import {
 import HowItWorksModel        from '../../models/section.howItWorks.model.json';
 import Scroll                 from 'react-scroll';
 
-const Link    = Scroll.Link;
 const Element = Scroll.Element;
 const Events  = Scroll.Events;
 
