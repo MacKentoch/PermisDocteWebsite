@@ -1,8 +1,6 @@
 # PermisDocteWebsite
 PermisDocte app website
 
-French driving license merit point consult.
+French driving license merit points consult.
 
-![iphoneHomePreview](https://raw.githubusercontent.com/MacKentoch/PermisDocteWebsite/master/iphoneHomePreview.png)
-
-
+![iphoneHomePreview](iphoneHomePreview.png)
