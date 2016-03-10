@@ -4,13 +4,11 @@ import React from 'react';
 
 const DarkGreySection = (props) => {
   return (
-    <section className="dark-grey-section ">
-      <div className="row">
-        <div className="col-xs-12">
-          {props.children}
-        </div>
+    <div className="dark-grey-section">
+      <div className="container-fluid">
+        {props.children}
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -4,13 +4,11 @@ import React from 'react';
 
 const WhiteSection = (props) => {
   return (
-    <section className="white-section">
-      <div className="row">
-        <div className="col-lg-12">
-          {props.children}
-        </div>
+    <div className="white-section">
+      <div className="container-fluid">
+        {props.children}
       </div>
-    </section>
+    </div>
   );
 };
 

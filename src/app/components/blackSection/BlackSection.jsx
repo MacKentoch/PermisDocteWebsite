@@ -9,15 +9,13 @@ const BlackSection = (props) => {
   };
 
   return (
-    <section
+    <div
       style={customStyle}
-      className="black-section container-fluid">
-      <div className="row">
-        <div className="col-xs-12">
+      className="black-section">
+      <div className="container-fluid">
           {props.children}
-        </div>
       </div>
-    </section>
+    </div>
   );
 };
 

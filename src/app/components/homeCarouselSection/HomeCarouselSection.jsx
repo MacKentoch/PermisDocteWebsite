@@ -18,6 +18,7 @@ class HomeCarouselSection extends React.Component {
     const BON_A_SAVOIR_DETAIL   = `L'application donne des "petits tuyaux" toujours bon à savoir sur le permis de consuire`;
     return (
       <BlackSection id="homeCarouselSection">
+        <div className="container-fluid containersCustom">
           <div className="row">
             <div className="col-md-12">
               <h1 className="text-center carouselSectionTitle">
@@ -63,7 +64,8 @@ class HomeCarouselSection extends React.Component {
               />
             </div>
           </div>
-        </BlackSection>
+        </div>
+      </BlackSection>
     );
   }
 }
