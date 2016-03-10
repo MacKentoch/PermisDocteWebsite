@@ -9,9 +9,11 @@ class BottomSection extends React.Component {
       <BlackSection
         overridePaddingTop={'15px'}
         overridePaddingBottom={'5px'}>
-        <p className="text-right">
-          © Erwan DATIN
-        </p>
+        <div className="container">
+          <p className="text-right">
+            © Erwan DATIN
+          </p>
+        </div>
       </BlackSection>
     );
   }
