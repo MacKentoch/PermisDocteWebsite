@@ -1,7 +1,7 @@
 'use strict';
 
 import React              from 'react';
-import BlackSection       from '../blackSection/BlackSection.jsx';
+import BlackSection       from '../backgrounds/blackSection/BlackSection.jsx';
 import ImagesCarousel     from '../imagesCarousel/ImagesCarousel.jsx';
 import CaracteristicsBox  from '../caracteristicsBox/CaracteristicsBox.jsx';
 

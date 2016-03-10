@@ -1,7 +1,7 @@
 'use strict';
 
 import React            from 'react';
-import BlackSection     from '../blackSection/BlackSection.jsx';
+import BlackSection     from '../backgrounds/blackSection/BlackSection.jsx';
 
 class BottomSection extends React.Component {
   render() {
