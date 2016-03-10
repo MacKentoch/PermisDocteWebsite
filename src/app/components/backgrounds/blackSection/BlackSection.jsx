@@ -12,7 +12,7 @@ const BlackSection = (props) => {
     <div
       style={customStyle}
       className="black-section">
-      <div className="container-fluid">
+      <div className="containersCustom">
           {props.children}
       </div>
     </div>

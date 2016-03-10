@@ -5,7 +5,7 @@ import React from 'react';
 const GreySection = (props) => {
   return (
     <div className="grey-section">
-      <div className="container-fluid">
+      <div className="containersCustom">
         {props.children}
       </div>
     </div>

@@ -5,7 +5,7 @@ import React from 'react';
 const WhiteSection = (props) => {
   return (
     <div className="white-section">
-      <div className="container-fluid">
+      <div className="containersCustom">
         {props.children}
       </div>
     </div>
