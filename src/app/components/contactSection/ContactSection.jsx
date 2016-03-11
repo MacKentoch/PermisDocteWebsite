@@ -1,9 +1,9 @@
 'use strict';
 
 import React            from 'react';
-import GreySection      from '../greySection/GreySection.jsx';
+import GreySection      from '../backgrounds/greySection/GreySection.jsx';
 import {
-  EmailIcon, 
+  EmailIcon,
   TwitterIcon
 }                       from '../icons';
 import SocialContainer  from '../socialContainer/SocialContainer.jsx';

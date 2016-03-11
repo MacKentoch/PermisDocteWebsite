@@ -2,7 +2,7 @@
 
 import React              from 'react';
 import { NumberTest }     from '../../services/NumberTest';
-import GreySection        from '../../components/greySection/GreySection.jsx';
+import GreySection        from '../../components/backgrounds/greySection/GreySection.jsx';
 import { LinkIcon }       from '../icons';
 
 class HomeHeaderSection extends React.Component {
