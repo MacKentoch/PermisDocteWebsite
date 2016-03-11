@@ -3,9 +3,9 @@ import { MorphReplace }     from 'react-svg-morph';
 import {
   ExpandMore,
   ExpandLess
-}                           from '../icons';
+}                           from '../../icons';
 import { Collapse }         from 'react-bootstrap';
-import { PromisedTimeout }  from '../../services/PromisedTimeout';
+import { PromisedTimeout }  from '../../../services/PromisedTimeout';
 import classNames           from 'classnames';
 
 class InfoPanel extends React.Component {

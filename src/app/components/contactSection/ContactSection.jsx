@@ -6,7 +6,7 @@ import {
   EmailIcon,
   TwitterIcon
 }                       from '../icons';
-import SocialContainer  from '../socialContainer/SocialContainer.jsx';
+import SocialContainer  from './socialContainer/SocialContainer.jsx';
 
 class ContactSection extends React.Component {
 

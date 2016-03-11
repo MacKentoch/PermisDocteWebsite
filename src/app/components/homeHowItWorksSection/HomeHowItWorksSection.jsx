@@ -2,7 +2,7 @@
 
 import React                from 'react';
 import GreySection          from '../../components/backgrounds/greySection/GreySection.jsx';
-import InfoPanel            from '../infoPanel/InfoPanel.jsx';
+import InfoPanel            from './infoPanel/InfoPanel.jsx';
 
 class HomeHowItWorksSection extends React.Component {
 
