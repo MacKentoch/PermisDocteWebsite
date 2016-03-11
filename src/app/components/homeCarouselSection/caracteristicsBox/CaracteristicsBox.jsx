@@ -3,7 +3,7 @@
 import React                from 'react';
 import {
   PromisedTimeout
-}                           from '../../services/PromisedTimeout';
+}                           from '../../../services/PromisedTimeout';
 import classNames           from 'classnames';
 
 class CaracteristicsBox extends React.Component {
