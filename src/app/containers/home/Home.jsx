@@ -38,7 +38,7 @@ class Home extends React.Component {
       HowItWorksModel                 : HowItWorksModel,
       permisDocteEmail                : contactModel.permisDocteEmail,
       twitterLink                     : contactModel.twitterLink,
-      images                          : Object.assign({}, imagesModel),
+      images                          : imagesModel,
       animated                        : true,
       headerRightTextHead_1_Animate   : false,
       headerRightTextSub_1_1_Animate  : false,
