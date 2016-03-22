@@ -3,8 +3,14 @@
 import React                from 'react';
 import GreySection          from '../../components/backgrounds/greySection/GreySection.jsx';
 import InfoPanel            from './infoPanel/InfoPanel.jsx';
+import YouTube              from 'react-youtube';
 
 class HomeHowItWorksSection extends React.Component {
+  onYouTubeReady(event) {
+    console.info('should pause');
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
+  }
 
   renderInfoPanels() {
     const InfoPanels = this.props.HowItWorksModel.map((info, infoIndex) =>{
@@ -23,6 +29,14 @@ class HomeHowItWorksSection extends React.Component {
   }
 
   render() {
+    const youtubeOptions = {
+      height: '390',
+      width: '640',
+      playerVars: {
+        autoplay: 1
+      }
+    };
+
     return (
       <GreySection id="HomeHowItWorksSection">
         <div className="row HomeHowItWorksSection">
@@ -33,6 +47,20 @@ class HomeHowItWorksSection extends React.Component {
             </h1>
           </div>
           {this.renderInfoPanels()}
+        </div>
+        <div className="row">
+          <h3 className="text-center homeHeaderSectionTitle">
+            Aperçu vidéo :
+            <hr className="homeHeaderSepTitle" />
+          </h3>
+          <div className="col-md-12">
+            <YouTube
+              videoId="9aVWbTGrB3Y"
+              opts={youtubeOptions}
+              onReady={(e)=>this.onYouTubeReady(e)}
+              onYouTubeIframeAPIReady={(e)=>this.onYouTubeReady(e)}
+            />
+          </div>
         </div>
       </GreySection>
     );
