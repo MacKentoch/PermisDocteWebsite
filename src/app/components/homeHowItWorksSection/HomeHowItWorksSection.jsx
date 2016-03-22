@@ -6,9 +6,25 @@ import InfoPanel            from './infoPanel/InfoPanel.jsx';
 import YouTube              from 'react-youtube';
 
 class HomeHowItWorksSection extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.init();
+  }
+
+  init() {
+    this.state = {
+      showVideo : false
+    }
+  }
+
+  onShowVideoClick() {
+    this.setState({
+      showVideo : true
+    });
+  }
+
   onYouTubeReady(event) {
-    console.info('should pause');
-    // access to player in all event handlers via event.target
     event.target.pauseVideo();
   }
 
@@ -28,15 +44,35 @@ class HomeHowItWorksSection extends React.Component {
     return InfoPanels;
   }
 
-  render() {
+  renderYoutubePreview() {
     const youtubeOptions = {
       height: '390',
-      width: '640',
+      width : '640',
       playerVars: {
         autoplay: 1
       }
     };
+    const youtTubePreview = (
+      <YouTube
+        videoId="9aVWbTGrB3Y"
+        opts={youtubeOptions}
+        onReady={(e)=>this.onYouTubeReady(e)}
+      />
+    );
+    return  youtTubePreview;
+  }
 
+  renderButtonShowYoutubePreview() {
+    return (
+      <button
+        className="btn btn-primary center-block"
+        onClick={() => this.onShowVideoClick()}>
+        Voir la démo
+      </button>
+    );
+  }
+
+  render() {
     return (
       <GreySection id="HomeHowItWorksSection">
         <div className="row HomeHowItWorksSection">
@@ -49,17 +85,12 @@ class HomeHowItWorksSection extends React.Component {
           {this.renderInfoPanels()}
         </div>
         <div className="row">
-          <h3 className="text-center homeHeaderSectionTitle">
+          <h3 className="text-center homeHeaderSectionTitle youtubePreviewTitle">
             Aperçu vidéo :
             <hr className="homeHeaderSepTitle" />
           </h3>
           <div className="col-md-12">
-            <YouTube
-              videoId="9aVWbTGrB3Y"
-              opts={youtubeOptions}
-              onReady={(e)=>this.onYouTubeReady(e)}
-              onYouTubeIframeAPIReady={(e)=>this.onYouTubeReady(e)}
-            />
+            {this.state.showVideo ? this.renderYoutubePreview() : this.renderButtonShowYoutubePreview()}
           </div>
         </div>
       </GreySection>
