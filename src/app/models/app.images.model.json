@@ -17,7 +17,8 @@
       "name" : "appStore",
       "ext"   : "png",
       "alt"   : "appStore",
-      "link"  : "./public/img/appStore.png"
+      "link"  : "./public/img/appStore.png",
+      "url"   : "https://geo.itunes.apple.com/fr/app/permisdocte/id1086746030?mt=8"
     }
   ],
   "carousel" : [

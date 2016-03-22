@@ -17,11 +17,13 @@ class GoAppStoreSection extends React.Component {
           <div
             key={store.name}
             className="col-xs-12">
-            <img
-              src={store.link}
-              className={imageClass}
-              alt={store.name}
-            />
+            <a href={store.url}>
+              <img
+                src={store.link}
+                className={imageClass}
+                alt={store.name}
+              />
+            </a>
           </div>
         </div>
       );
