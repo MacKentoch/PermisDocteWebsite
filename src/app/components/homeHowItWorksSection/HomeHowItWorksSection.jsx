@@ -4,6 +4,7 @@ import React                from 'react';
 import GreySection          from '../../components/backgrounds/greySection/GreySection.jsx';
 import InfoPanel            from './infoPanel/InfoPanel.jsx';
 import YouTube              from 'react-youtube';
+import {YouTubeIcon}        from '../icons';
 
 class HomeHowItWorksSection extends React.Component {
 
@@ -65,9 +66,12 @@ class HomeHowItWorksSection extends React.Component {
   renderButtonShowYoutubePreview() {
     return (
       <button
-        className="btn btn-primary center-block"
+        className="btn btn-primary center-block btnYoutubeIcon"
         onClick={() => this.onShowVideoClick()}>
-        Voir la démo
+        <p>
+          Voir la démo
+        </p>
+        <YouTubeIcon />
       </button>
     );
   }

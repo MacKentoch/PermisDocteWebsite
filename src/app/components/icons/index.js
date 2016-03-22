@@ -6,6 +6,7 @@ import ExpandMore   from './expandMore/ExpandMore.jsx';
 import IosHelpIcon  from './iosHelpIcon/IosHelpIcon.jsx';
 import LinkIcon     from './linkIcon/LinkIcon.jsx';
 import TwitterIcon  from './twitterIcon/TwitterIcon.jsx';
+import YouTubeIcon  from './youTubeIcon/youTubeIcon.jsx';
 
 export {
   EmailIcon,
@@ -13,5 +14,6 @@ export {
   ExpandMore,
   IosHelpIcon,
   LinkIcon,
-  TwitterIcon
+  TwitterIcon,
+  YouTubeIcon
 };
