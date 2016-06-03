@@ -15,7 +15,7 @@ class HomeCarouselSection extends React.Component {
     } = this.props;
     const PRISE_EN_MAIN_DETAIL  = `Le but de l'application est jsutement de simplifier la consultation du solde des points du permis`;
     const GRATUIT_SANS_PUB      = `Une aplication vraiment gratuite c'est à dire sans publicité ou tout autre détail habituellement agaçant des applications gratuites.`;
-    const BON_A_SAVOIR_DETAIL   = `L'application donne des "petits tuyaux" toujours bon à savoir sur le permis de consuire`;
+    const BON_A_SAVOIR_DETAIL   = `L'application donne des "petits tuyaux" toujours bon à savoir sur le permis de conduire`;
     return (
       <BlackSection id="homeCarouselSection">
         <div className="container-fluid containersCustom">
