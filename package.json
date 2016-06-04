@@ -1,6 +1,6 @@
 {
   "name": "permis-docte-website",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "PermisDocte app website",
   "main": "src/index.js",
   "scripts": {
